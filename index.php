@@ -61,6 +61,4 @@ $produk = query("SELECT * FROM produk");
 
     <a href="login/index.php">Login</a>
     <a href="logout.php">Logout</a>
-</body>
-
-</html>
+<?php include 'layout/footer.php' ?>

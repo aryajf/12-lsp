@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidebar</title>
-</head>
-<body>
-    <div class="menu">
-        <a href="index.php">Dashboard</a>
-        <a href="user.php">Data User</a>
-        <a href="produk.php">Data Produk</a>
-        <a href="transansi.php">Data Transaksi</a>
-    </div>
-</body>
-</html>
+<div id="sidebar">
+    <a href="#" class="sidebar-brand">Admin Dashboard</a>
+    <ul class="sidebar-nav">
+        <li class="sidebar-header"> Pages </li>
+        <li class="sidebar-item"><a class="sidebar-link" href="index.php">Dashboard</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="user.php">Data User</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="produk.php">Data Produk</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="transansi.php">Data Transaksi</a></li>
+    </ul>
+</div>

@@ -1,0 +1,27 @@
+#sidebar{
+    background: #222E3C;
+    height: 100vh;
+}
+#sidebar .sidebar-brand{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 30px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+#sidebar .sidebar-nav{
+    list-style: none;
+}
+#sidebar .sidebar-header{
+    font-size: 16px;
+    color:#fff;
+}
+#sidebar .sidebar-item{
+    padding: 20px 0;
+}
+#sidebar .sidebar-item .sidebar-link{
+    display: block;
+    text-decoration: none;
+    color: rgba(233, 236, 239, 0.5)
+}

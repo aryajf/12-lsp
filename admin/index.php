@@ -18,9 +18,16 @@ if ($_SESSION["roles"] != "Admin"){
     ";
 }
 ?>
-<?php 
-require '../layout/sidebar.php';?>
-    <div class="content">
-    <h1>Halo, <?= $_SESSION["nama_lengkap"]; ?><br/>Ini Adalah Halaman Admin</h1>
-    <a href="../logout.php">logout</a>
+<?php include '../layout/header.php' ?>
+<div class="row">
+    <div class="col-md-3">
+        <?php require '../layout/sidebar.php';?>
     </div>
+    <div class="col-md-9">
+        <div class="content">
+            <h1>Halo, <?= $_SESSION["nama_lengkap"]; ?><br/>Ini Adalah Halaman Admin</h1>
+            <a href="../logout.php">logout</a>
+        </div>
+    </div>
+</div>
+<?php include '../layout/footer.php' ?>
